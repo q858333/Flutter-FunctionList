@@ -1,0 +1,17 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.symlinks/plugins/isar_flutter_libs/ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/in_app_purchase_storekit" "${PODS_ROOT}/Headers/Public/integration_test" "${PODS_ROOT}/Headers/Public/isar_flutter_libs" "${PODS_XCFRAMEWORKS_BUILD_DIR}/isar_flutter_libs/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" "${PODS_CONFIGURATION_BUILD_DIR}/in_app_purchase_storekit" "${PODS_CONFIGURATION_BUILD_DIR}/integration_test" "${PODS_CONFIGURATION_BUILD_DIR}/isar_flutter_libs" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences_foundation" "${PODS_XCFRAMEWORKS_BUILD_DIR}/isar_flutter_libs" /usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/isar_flutter_libs/isar_flutter_libs.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation/path_provider_foundation.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences_foundation/shared_preferences_foundation.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/in_app_purchase_storekit/in_app_purchase_storekit.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/integration_test/integration_test.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"in_app_purchase_storekit" -l"integration_test" -l"isar" -l"isar_flutter_libs" -l"path_provider_foundation" -l"shared_preferences_foundation" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/isar_flutter_libs/isar_flutter_libs.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation/path_provider_foundation.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences_foundation/shared_preferences_foundation.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/in_app_purchase_storekit/in_app_purchase_storekit.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/integration_test/integration_test.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/isar_flutter_libs" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider_foundation" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences_foundation"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

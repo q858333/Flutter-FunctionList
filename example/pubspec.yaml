@@ -1,0 +1,41 @@
+name: in_app_purchase_example
+description: Demonstrates how to use the in_app_purchase plugin.
+publish_to: none
+
+version: 1.0.30+212
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  in_app_purchase:
+    # When depending on this package from a real application you should use:
+    #   in_app_purchase: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version.
+    path: ../
+  in_app_purchase_android: ^0.3.0
+  in_app_purchase_storekit: ^0.3.7
+  shared_preferences: ^2.0.0
+  # 本地数据库
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  # 获取本地文件路径
+  path_provider: ^2.1.0
+  # 锁操作
+  mutex: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true

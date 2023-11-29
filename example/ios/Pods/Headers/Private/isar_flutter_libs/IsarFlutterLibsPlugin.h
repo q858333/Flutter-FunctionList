@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/isar_flutter_libs/ios/Classes/IsarFlutterLibsPlugin.h
