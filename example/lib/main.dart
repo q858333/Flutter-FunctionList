@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:in_app_purchase_android/billing_client_wrappers.dart';
 import 'package:in_app_purchase_android/in_app_purchase_android.dart';
+import 'package:in_app_purchase_example/db/model.dart';
 import 'package:in_app_purchase_storekit/in_app_purchase_storekit.dart';
 import 'package:in_app_purchase_storekit/store_kit_wrappers.dart';
 
@@ -25,8 +26,15 @@ void main() {
  void initDB() async {
     DBManager.configDB();
     await Future.delayed(const Duration(seconds: 3));
-   List list  = await DBManager.readUser();
-   print(' List $list');
+    // await DBManager.addUser();
+    List list  = await DBManager.readUser();
+    FriendInfo info = list.first;
+    await DBManager.delete(info.id);
+    await Future.delayed(const Duration(seconds: 3));
+
+    List newList  = await DBManager.readUser();
+
+    print(' List $list');
   }
 
 // Auto-consume must be true on iOS.

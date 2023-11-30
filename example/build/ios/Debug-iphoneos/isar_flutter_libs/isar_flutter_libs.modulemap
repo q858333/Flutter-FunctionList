@@ -7,6 +7,6 @@ module isar_flutter_libs {
 
 
 module isar_flutter_libs.Swift {
-  header "/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/Debug-iphoneos/isar_flutter_libs/Swift Compatibility Header/isar_flutter_libs-Swift.h"
+  header "/Users/deng/Documents/study/flutter/mygit/demo/example/build/ios/Debug-iphoneos/isar_flutter_libs/Swift Compatibility Header/isar_flutter_libs-Swift.h"
   requires objc
 }

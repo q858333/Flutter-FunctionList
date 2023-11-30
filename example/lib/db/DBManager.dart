@@ -35,19 +35,25 @@ class DBManager {
   }
 
   static Future<List<FriendInfo>> readUser() async {
-
     List<FriendInfo> result = await _database.friendInfos.where().findAll();
     return result;
   }
+
+  static Future<void> delete(Id id) async {
+    _database.writeTxn(() async => {
+      await _database.friendInfos.where().idEqualTo(id).deleteAll()
+    });
+   }
 
 
   static Future<void> addUser() async {
 
     FriendInfo friendInfo = FriendInfo();
     friendInfo
-      ..name = "name"
-      ..avatar = "avatar"
-      ..phone = "phone";
+      ..name = "nam11e"
+      ..avatar = "av11atar"
+      ..phone = "pho11ne"
+      ..address = "ad11dress";
 
     await _database.writeTxn(() async {
       await _database.friendInfos.put(friendInfo); // 将新用户数据写入到 Isar

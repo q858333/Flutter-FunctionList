@@ -17,18 +17,23 @@ const FriendInfoSchema = CollectionSchema(
   name: r'FriendInfo',
   id: 443103780331758439,
   properties: {
-    r'avatar': PropertySchema(
+    r'address': PropertySchema(
       id: 0,
+      name: r'address',
+      type: IsarType.string,
+    ),
+    r'avatar': PropertySchema(
+      id: 1,
       name: r'avatar',
       type: IsarType.string,
     ),
     r'name': PropertySchema(
-      id: 1,
+      id: 2,
       name: r'name',
       type: IsarType.string,
     ),
     r'phone': PropertySchema(
-      id: 2,
+      id: 3,
       name: r'phone',
       type: IsarType.string,
     )
@@ -68,6 +73,12 @@ int _friendInfoEstimateSize(
 ) {
   var bytesCount = offsets.last;
   {
+    final value = object.address;
+    if (value != null) {
+      bytesCount += 3 + value.length * 3;
+    }
+  }
+  {
     final value = object.avatar;
     if (value != null) {
       bytesCount += 3 + value.length * 3;
@@ -94,9 +105,10 @@ void _friendInfoSerialize(
   List<int> offsets,
   Map<Type, List<int>> allOffsets,
 ) {
-  writer.writeString(offsets[0], object.avatar);
-  writer.writeString(offsets[1], object.name);
-  writer.writeString(offsets[2], object.phone);
+  writer.writeString(offsets[0], object.address);
+  writer.writeString(offsets[1], object.avatar);
+  writer.writeString(offsets[2], object.name);
+  writer.writeString(offsets[3], object.phone);
 }
 
 FriendInfo _friendInfoDeserialize(
@@ -106,10 +118,11 @@ FriendInfo _friendInfoDeserialize(
   Map<Type, List<int>> allOffsets,
 ) {
   final object = FriendInfo();
-  object.avatar = reader.readStringOrNull(offsets[0]);
+  object.address = reader.readStringOrNull(offsets[0]);
+  object.avatar = reader.readStringOrNull(offsets[1]);
   object.id = id;
-  object.name = reader.readStringOrNull(offsets[1]);
-  object.phone = reader.readStringOrNull(offsets[2]);
+  object.name = reader.readStringOrNull(offsets[2]);
+  object.phone = reader.readStringOrNull(offsets[3]);
   return object;
 }
 
@@ -125,6 +138,8 @@ P _friendInfoDeserializeProp<P>(
     case 1:
       return (reader.readStringOrNull(offset)) as P;
     case 2:
+      return (reader.readStringOrNull(offset)) as P;
+    case 3:
       return (reader.readStringOrNull(offset)) as P;
     default:
       throw IsarError('Unknown property with id $propertyId');
@@ -287,6 +302,155 @@ extension FriendInfoQueryWhere
 
 extension FriendInfoQueryFilter
     on QueryBuilder<FriendInfo, FriendInfo, QFilterCondition> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressIsNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNull(
+        property: r'address',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      addressIsNotNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNotNull(
+        property: r'address',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressEqualTo(
+    String? value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      addressGreaterThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        include: include,
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressLessThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.lessThan(
+        include: include,
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressBetween(
+    String? lower,
+    String? upper, {
+    bool includeLower = true,
+    bool includeUpper = true,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.between(
+        property: r'address',
+        lower: lower,
+        includeLower: includeLower,
+        upper: upper,
+        includeUpper: includeUpper,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressStartsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.startsWith(
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressEndsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.endsWith(
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressContains(
+      String value,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.contains(
+        property: r'address',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressMatches(
+      String pattern,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.matches(
+        property: r'address',
+        wildcard: pattern,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> addressIsEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'address',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      addressIsNotEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        property: r'address',
+        value: '',
+      ));
+    });
+  }
+
   QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarIsNull() {
     return QueryBuilder.apply(this, (query) {
       return query.addFilterCondition(const FilterCondition.isNull(
@@ -790,6 +954,18 @@ extension FriendInfoQueryLinks
 
 extension FriendInfoQuerySortBy
     on QueryBuilder<FriendInfo, FriendInfo, QSortBy> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByAddress() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'address', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByAddressDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'address', Sort.desc);
+    });
+  }
+
   QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByAvatar() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'avatar', Sort.asc);
@@ -829,6 +1005,18 @@ extension FriendInfoQuerySortBy
 
 extension FriendInfoQuerySortThenBy
     on QueryBuilder<FriendInfo, FriendInfo, QSortThenBy> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByAddress() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'address', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByAddressDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'address', Sort.desc);
+    });
+  }
+
   QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByAvatar() {
     return QueryBuilder.apply(this, (query) {
       return query.addSortBy(r'avatar', Sort.asc);
@@ -880,6 +1068,13 @@ extension FriendInfoQuerySortThenBy
 
 extension FriendInfoQueryWhereDistinct
     on QueryBuilder<FriendInfo, FriendInfo, QDistinct> {
+  QueryBuilder<FriendInfo, FriendInfo, QDistinct> distinctByAddress(
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addDistinctBy(r'address', caseSensitive: caseSensitive);
+    });
+  }
+
   QueryBuilder<FriendInfo, FriendInfo, QDistinct> distinctByAvatar(
       {bool caseSensitive = true}) {
     return QueryBuilder.apply(this, (query) {
@@ -907,6 +1102,12 @@ extension FriendInfoQueryProperty
   QueryBuilder<FriendInfo, int, QQueryOperations> idProperty() {
     return QueryBuilder.apply(this, (query) {
       return query.addPropertyName(r'id');
+    });
+  }
+
+  QueryBuilder<FriendInfo, String?, QQueryOperations> addressProperty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addPropertyName(r'address');
     });
   }
 

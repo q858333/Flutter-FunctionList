@@ -11,4 +11,6 @@ class FriendInfo {
   String? name;
   String? avatar;
   String? phone;
+  String? address;
+
 }
