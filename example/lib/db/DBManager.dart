@@ -9,23 +9,21 @@ class DBManager {
 
   DBManager._internal();
 
-  static late Isar _database;
-
-  Future<Isar> get database async {
-    // if (_database != null) return _database;
-
-    _database = await _configDB();
-    return _database;
+  static DBManager _getInstance() {
+    return _instance;
   }
 
-  Future<Isar> _configDB() async {
+    static late Isar _database;
+
+   static void configDB() async {
     final dir = await getApplicationDocumentsDirectory();
 
     String name = "11111.isar";
     Isar? temp = Isar.getInstance(name);
     if (temp != null) {
+      _database = temp;
       print("=== openIsarInstanceForUser already exist");
-      return temp;
+      return ;
     }
 
     Isar isar = await Isar.open(
@@ -33,17 +31,18 @@ class DBManager {
       directory: dir.path,
       name: name,
     );
-
-    return isar;
+    _database = isar;
   }
 
-  Future<List<FriendInfo>> readUser() async {
+  static Future<List<FriendInfo>> readUser() async {
+
     List<FriendInfo> result = await _database.friendInfos.where().findAll();
     return result;
   }
 
 
-  Future<void> addUser() async {
+  static Future<void> addUser() async {
+
     FriendInfo friendInfo = FriendInfo();
     friendInfo
       ..name = "name"

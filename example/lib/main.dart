@@ -23,10 +23,9 @@ void main() {
 }
 
  void initDB() async {
-    DBManager();
+    DBManager.configDB();
     await Future.delayed(const Duration(seconds: 3));
-   // await DBManager().addUser();
-   List list  = await DBManager().readUser();
+   List list  = await DBManager.readUser();
    print(' List $list');
   }
 
