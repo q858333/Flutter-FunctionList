@@ -1,0 +1,930 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'model.dart';
+
+// **************************************************************************
+// IsarCollectionGenerator
+// **************************************************************************
+
+// coverage:ignore-file
+// ignore_for_file: duplicate_ignore, non_constant_identifier_names, constant_identifier_names, invalid_use_of_protected_member, unnecessary_cast, prefer_const_constructors, lines_longer_than_80_chars, require_trailing_commas, inference_failure_on_function_invocation, unnecessary_parenthesis, unnecessary_raw_strings, unnecessary_null_checks, join_return_with_assignment, prefer_final_locals, avoid_js_rounded_ints, avoid_positional_boolean_parameters, always_specify_types
+
+extension GetFriendInfoCollection on Isar {
+  IsarCollection<FriendInfo> get friendInfos => this.collection();
+}
+
+const FriendInfoSchema = CollectionSchema(
+  name: r'FriendInfo',
+  id: 443103780331758439,
+  properties: {
+    r'avatar': PropertySchema(
+      id: 0,
+      name: r'avatar',
+      type: IsarType.string,
+    ),
+    r'name': PropertySchema(
+      id: 1,
+      name: r'name',
+      type: IsarType.string,
+    ),
+    r'phone': PropertySchema(
+      id: 2,
+      name: r'phone',
+      type: IsarType.string,
+    )
+  },
+  estimateSize: _friendInfoEstimateSize,
+  serialize: _friendInfoSerialize,
+  deserialize: _friendInfoDeserialize,
+  deserializeProp: _friendInfoDeserializeProp,
+  idName: r'id',
+  indexes: {
+    r'name': IndexSchema(
+      id: 879695947855722453,
+      name: r'name',
+      unique: false,
+      replace: false,
+      properties: [
+        IndexPropertySchema(
+          name: r'name',
+          type: IndexType.hash,
+          caseSensitive: true,
+        )
+      ],
+    )
+  },
+  links: {},
+  embeddedSchemas: {},
+  getId: _friendInfoGetId,
+  getLinks: _friendInfoGetLinks,
+  attach: _friendInfoAttach,
+  version: '3.1.0+1',
+);
+
+int _friendInfoEstimateSize(
+  FriendInfo object,
+  List<int> offsets,
+  Map<Type, List<int>> allOffsets,
+) {
+  var bytesCount = offsets.last;
+  {
+    final value = object.avatar;
+    if (value != null) {
+      bytesCount += 3 + value.length * 3;
+    }
+  }
+  {
+    final value = object.name;
+    if (value != null) {
+      bytesCount += 3 + value.length * 3;
+    }
+  }
+  {
+    final value = object.phone;
+    if (value != null) {
+      bytesCount += 3 + value.length * 3;
+    }
+  }
+  return bytesCount;
+}
+
+void _friendInfoSerialize(
+  FriendInfo object,
+  IsarWriter writer,
+  List<int> offsets,
+  Map<Type, List<int>> allOffsets,
+) {
+  writer.writeString(offsets[0], object.avatar);
+  writer.writeString(offsets[1], object.name);
+  writer.writeString(offsets[2], object.phone);
+}
+
+FriendInfo _friendInfoDeserialize(
+  Id id,
+  IsarReader reader,
+  List<int> offsets,
+  Map<Type, List<int>> allOffsets,
+) {
+  final object = FriendInfo();
+  object.avatar = reader.readStringOrNull(offsets[0]);
+  object.id = id;
+  object.name = reader.readStringOrNull(offsets[1]);
+  object.phone = reader.readStringOrNull(offsets[2]);
+  return object;
+}
+
+P _friendInfoDeserializeProp<P>(
+  IsarReader reader,
+  int propertyId,
+  int offset,
+  Map<Type, List<int>> allOffsets,
+) {
+  switch (propertyId) {
+    case 0:
+      return (reader.readStringOrNull(offset)) as P;
+    case 1:
+      return (reader.readStringOrNull(offset)) as P;
+    case 2:
+      return (reader.readStringOrNull(offset)) as P;
+    default:
+      throw IsarError('Unknown property with id $propertyId');
+  }
+}
+
+Id _friendInfoGetId(FriendInfo object) {
+  return object.id;
+}
+
+List<IsarLinkBase<dynamic>> _friendInfoGetLinks(FriendInfo object) {
+  return [];
+}
+
+void _friendInfoAttach(IsarCollection<dynamic> col, Id id, FriendInfo object) {
+  object.id = id;
+}
+
+extension FriendInfoQueryWhereSort
+    on QueryBuilder<FriendInfo, FriendInfo, QWhere> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhere> anyId() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(const IdWhereClause.any());
+    });
+  }
+}
+
+extension FriendInfoQueryWhere
+    on QueryBuilder<FriendInfo, FriendInfo, QWhereClause> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> idEqualTo(Id id) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(IdWhereClause.between(
+        lower: id,
+        upper: id,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> idNotEqualTo(Id id) {
+    return QueryBuilder.apply(this, (query) {
+      if (query.whereSort == Sort.asc) {
+        return query
+            .addWhereClause(
+              IdWhereClause.lessThan(upper: id, includeUpper: false),
+            )
+            .addWhereClause(
+              IdWhereClause.greaterThan(lower: id, includeLower: false),
+            );
+      } else {
+        return query
+            .addWhereClause(
+              IdWhereClause.greaterThan(lower: id, includeLower: false),
+            )
+            .addWhereClause(
+              IdWhereClause.lessThan(upper: id, includeUpper: false),
+            );
+      }
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> idGreaterThan(Id id,
+      {bool include = false}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(
+        IdWhereClause.greaterThan(lower: id, includeLower: include),
+      );
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> idLessThan(Id id,
+      {bool include = false}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(
+        IdWhereClause.lessThan(upper: id, includeUpper: include),
+      );
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> idBetween(
+    Id lowerId,
+    Id upperId, {
+    bool includeLower = true,
+    bool includeUpper = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(IdWhereClause.between(
+        lower: lowerId,
+        includeLower: includeLower,
+        upper: upperId,
+        includeUpper: includeUpper,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> nameIsNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(IndexWhereClause.equalTo(
+        indexName: r'name',
+        value: [null],
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> nameIsNotNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(IndexWhereClause.between(
+        indexName: r'name',
+        lower: [null],
+        includeLower: false,
+        upper: [],
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> nameEqualTo(
+      String? name) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addWhereClause(IndexWhereClause.equalTo(
+        indexName: r'name',
+        value: [name],
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterWhereClause> nameNotEqualTo(
+      String? name) {
+    return QueryBuilder.apply(this, (query) {
+      if (query.whereSort == Sort.asc) {
+        return query
+            .addWhereClause(IndexWhereClause.between(
+              indexName: r'name',
+              lower: [],
+              upper: [name],
+              includeUpper: false,
+            ))
+            .addWhereClause(IndexWhereClause.between(
+              indexName: r'name',
+              lower: [name],
+              includeLower: false,
+              upper: [],
+            ));
+      } else {
+        return query
+            .addWhereClause(IndexWhereClause.between(
+              indexName: r'name',
+              lower: [name],
+              includeLower: false,
+              upper: [],
+            ))
+            .addWhereClause(IndexWhereClause.between(
+              indexName: r'name',
+              lower: [],
+              upper: [name],
+              includeUpper: false,
+            ));
+      }
+    });
+  }
+}
+
+extension FriendInfoQueryFilter
+    on QueryBuilder<FriendInfo, FriendInfo, QFilterCondition> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarIsNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNull(
+        property: r'avatar',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      avatarIsNotNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNotNull(
+        property: r'avatar',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarEqualTo(
+    String? value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarGreaterThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        include: include,
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarLessThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.lessThan(
+        include: include,
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarBetween(
+    String? lower,
+    String? upper, {
+    bool includeLower = true,
+    bool includeUpper = true,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.between(
+        property: r'avatar',
+        lower: lower,
+        includeLower: includeLower,
+        upper: upper,
+        includeUpper: includeUpper,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarStartsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.startsWith(
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarEndsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.endsWith(
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarContains(
+      String value,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.contains(
+        property: r'avatar',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarMatches(
+      String pattern,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.matches(
+        property: r'avatar',
+        wildcard: pattern,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> avatarIsEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'avatar',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      avatarIsNotEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        property: r'avatar',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> idEqualTo(
+      Id value) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'id',
+        value: value,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> idGreaterThan(
+    Id value, {
+    bool include = false,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        include: include,
+        property: r'id',
+        value: value,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> idLessThan(
+    Id value, {
+    bool include = false,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.lessThan(
+        include: include,
+        property: r'id',
+        value: value,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> idBetween(
+    Id lower,
+    Id upper, {
+    bool includeLower = true,
+    bool includeUpper = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.between(
+        property: r'id',
+        lower: lower,
+        includeLower: includeLower,
+        upper: upper,
+        includeUpper: includeUpper,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameIsNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNull(
+        property: r'name',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameIsNotNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNotNull(
+        property: r'name',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameEqualTo(
+    String? value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameGreaterThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        include: include,
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameLessThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.lessThan(
+        include: include,
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameBetween(
+    String? lower,
+    String? upper, {
+    bool includeLower = true,
+    bool includeUpper = true,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.between(
+        property: r'name',
+        lower: lower,
+        includeLower: includeLower,
+        upper: upper,
+        includeUpper: includeUpper,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameStartsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.startsWith(
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameEndsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.endsWith(
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameContains(
+      String value,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.contains(
+        property: r'name',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameMatches(
+      String pattern,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.matches(
+        property: r'name',
+        wildcard: pattern,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameIsEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'name',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> nameIsNotEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        property: r'name',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneIsNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNull(
+        property: r'phone',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneIsNotNull() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(const FilterCondition.isNotNull(
+        property: r'phone',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneEqualTo(
+    String? value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneGreaterThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        include: include,
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneLessThan(
+    String? value, {
+    bool include = false,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.lessThan(
+        include: include,
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneBetween(
+    String? lower,
+    String? upper, {
+    bool includeLower = true,
+    bool includeUpper = true,
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.between(
+        property: r'phone',
+        lower: lower,
+        includeLower: includeLower,
+        upper: upper,
+        includeUpper: includeUpper,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneStartsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.startsWith(
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneEndsWith(
+    String value, {
+    bool caseSensitive = true,
+  }) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.endsWith(
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneContains(
+      String value,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.contains(
+        property: r'phone',
+        value: value,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneMatches(
+      String pattern,
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.matches(
+        property: r'phone',
+        wildcard: pattern,
+        caseSensitive: caseSensitive,
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition> phoneIsEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.equalTo(
+        property: r'phone',
+        value: '',
+      ));
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterFilterCondition>
+      phoneIsNotEmpty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addFilterCondition(FilterCondition.greaterThan(
+        property: r'phone',
+        value: '',
+      ));
+    });
+  }
+}
+
+extension FriendInfoQueryObject
+    on QueryBuilder<FriendInfo, FriendInfo, QFilterCondition> {}
+
+extension FriendInfoQueryLinks
+    on QueryBuilder<FriendInfo, FriendInfo, QFilterCondition> {}
+
+extension FriendInfoQuerySortBy
+    on QueryBuilder<FriendInfo, FriendInfo, QSortBy> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByAvatar() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'avatar', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByAvatarDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'avatar', Sort.desc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByName() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'name', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByNameDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'name', Sort.desc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByPhone() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'phone', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> sortByPhoneDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'phone', Sort.desc);
+    });
+  }
+}
+
+extension FriendInfoQuerySortThenBy
+    on QueryBuilder<FriendInfo, FriendInfo, QSortThenBy> {
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByAvatar() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'avatar', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByAvatarDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'avatar', Sort.desc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenById() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'id', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByIdDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'id', Sort.desc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByName() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'name', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByNameDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'name', Sort.desc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByPhone() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'phone', Sort.asc);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QAfterSortBy> thenByPhoneDesc() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addSortBy(r'phone', Sort.desc);
+    });
+  }
+}
+
+extension FriendInfoQueryWhereDistinct
+    on QueryBuilder<FriendInfo, FriendInfo, QDistinct> {
+  QueryBuilder<FriendInfo, FriendInfo, QDistinct> distinctByAvatar(
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addDistinctBy(r'avatar', caseSensitive: caseSensitive);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QDistinct> distinctByName(
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addDistinctBy(r'name', caseSensitive: caseSensitive);
+    });
+  }
+
+  QueryBuilder<FriendInfo, FriendInfo, QDistinct> distinctByPhone(
+      {bool caseSensitive = true}) {
+    return QueryBuilder.apply(this, (query) {
+      return query.addDistinctBy(r'phone', caseSensitive: caseSensitive);
+    });
+  }
+}
+
+extension FriendInfoQueryProperty
+    on QueryBuilder<FriendInfo, FriendInfo, QQueryProperty> {
+  QueryBuilder<FriendInfo, int, QQueryOperations> idProperty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addPropertyName(r'id');
+    });
+  }
+
+  QueryBuilder<FriendInfo, String?, QQueryOperations> avatarProperty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addPropertyName(r'avatar');
+    });
+  }
+
+  QueryBuilder<FriendInfo, String?, QQueryOperations> nameProperty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addPropertyName(r'name');
+    });
+  }
+
+  QueryBuilder<FriendInfo, String?, QQueryOperations> phoneProperty() {
+    return QueryBuilder.apply(this, (query) {
+      return query.addPropertyName(r'phone');
+    });
+  }
+}

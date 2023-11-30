@@ -1,0 +1,15 @@
+ipaD
+1
+1 1.0
++AppIcon60x60@2x.png
++AppIcon76x76@2x~ipad.png
++Assets.car
++Info.plist
++PkgInfo
++Runner
++_CodeSignature/CodeResources
+xEOF
+#CreateSparseIPA UUID: 6B15CA16-1CCB-388F-88A6-CFC34538C5F9
+#Bundle id: com.aiai.test
+#Old bundle version: 1 1.0
+#New bundle version: 1 1.0

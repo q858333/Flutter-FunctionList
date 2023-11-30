@@ -1,0 +1,913 @@
+2023-11-23 07:36:51 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb05ea70c50; archive(resolved)="<IDEArchive: 0x6000004adb00>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb05ea70c50; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fb05ea72730; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ea3c0f0; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ea797c0; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ee46910; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ea73d20; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ea7d050; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ea7a320; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05df471c0; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="<IDEProvisioningBasicTeam: 0x600002167360; teamID='HM3C623473', teamName='BAHRAIN ANALIVE S.P.C'>">
+	<IDEDistributionContext: 0x7fb05ef044c0; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb05ee3fd60; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb05ea6ffc0; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60000225d4f0>", team="(null)">
+	<IDEDistributionContext: 0x7fb05ed6e040; archive = "<IDEArchive: 0x6000004adb00>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fb05ea70c50>
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2023-11-23 07:36:51 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app'
+2023-11-23 07:36:51 +0000  >>> Copying /Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app 
+2023-11-23 07:36:51 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-11-23 07:36:51 +0000  17105 bytes for ./_CodeSignature/CodeResources
+2023-11-23 07:36:51 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-11-23 07:36:51 +0000  3364 bytes for ./AppIcon60x60@2x.png
+2023-11-23 07:36:51 +0000  copying file ./Runner ... 
+2023-11-23 07:36:51 +0000  185632 bytes for ./Runner
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2023-11-23 07:36:51 +0000  923 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2023-11-23 07:36:51 +0000  1835 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2023-11-23 07:36:51 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-11-23 07:36:51 +0000  2281 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-11-23 07:36:51 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-11-23 07:36:51 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-11-23 07:36:51 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2023-11-23 07:36:51 +0000  copying file ./Assets.car ... 
+2023-11-23 07:36:51 +0000  97279 bytes for ./Assets.car
+2023-11-23 07:36:51 +0000  copying file ./AppFrameworkInfo.plist ... 
+2023-11-23 07:36:51 +0000  377 bytes for ./AppFrameworkInfo.plist
+2023-11-23 07:36:51 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2023-11-23 07:36:51 +0000  4121 bytes for ./AppIcon76x76@2x~ipad.png
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2023-11-23 07:36:51 +0000  335072 bytes for ./Frameworks/libswiftCoreImage.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2023-11-23 07:36:51 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2023-11-23 07:36:51 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2023-11-23 07:36:51 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2023-11-23 07:36:51 +0000  655616 bytes for ./Frameworks/libswiftUIKit.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2023-11-23 07:36:51 +0000  395696 bytes for ./Frameworks/libswiftMetal.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2023-11-23 07:36:51 +0000  1377360 bytes for ./Frameworks/libswiftDispatch.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2023-11-23 07:36:51 +0000  396976 bytes for ./Frameworks/libswiftos.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2023-11-23 07:36:51 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2023-11-23 07:36:51 +0000  6108 bytes for ./Frameworks/Flutter.framework/_CodeSignature/CodeResources
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/icudtl.dat ... 
+2023-11-23 07:36:51 +0000  817168 bytes for ./Frameworks/Flutter.framework/icudtl.dat
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Flutter ... 
+2023-11-23 07:36:51 +0000  9766368 bytes for ./Frameworks/Flutter.framework/Flutter
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterEngine.h ... 
+2023-11-23 07:36:51 +0000  20494 bytes for ./Frameworks/Flutter.framework/Headers/FlutterEngine.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterChannels.h ... 
+2023-11-23 07:36:51 +0000  16929 bytes for ./Frameworks/Flutter.framework/Headers/FlutterChannels.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterPlugin.h ... 
+2023-11-23 07:36:51 +0000  15972 bytes for ./Frameworks/Flutter.framework/Headers/FlutterPlugin.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h ... 
+2023-11-23 07:36:51 +0000  1139 bytes for ./Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterTexture.h ... 
+2023-11-23 07:36:51 +0000  1916 bytes for ./Frameworks/Flutter.framework/Headers/FlutterTexture.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h ... 
+2023-11-23 07:36:51 +0000  4506 bytes for ./Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h ... 
+2023-11-23 07:36:51 +0000  1835 bytes for ./Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h ... 
+2023-11-23 07:36:51 +0000  3795 bytes for ./Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterCodecs.h ... 
+2023-11-23 07:36:51 +0000  15055 bytes for ./Frameworks/Flutter.framework/Headers/FlutterCodecs.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/Flutter.h ... 
+2023-11-23 07:36:51 +0000  722 bytes for ./Frameworks/Flutter.framework/Headers/Flutter.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterViewController.h ... 
+2023-11-23 07:36:51 +0000  9967 bytes for ./Frameworks/Flutter.framework/Headers/FlutterViewController.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterMacros.h ... 
+2023-11-23 07:36:51 +0000  1682 bytes for ./Frameworks/Flutter.framework/Headers/FlutterMacros.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterDartProject.h ... 
+2023-11-23 07:36:51 +0000  3003 bytes for ./Frameworks/Flutter.framework/Headers/FlutterDartProject.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h ... 
+2023-11-23 07:36:51 +0000  5185 bytes for ./Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h ... 
+2023-11-23 07:36:51 +0000  3605 bytes for ./Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h ... 
+2023-11-23 07:36:51 +0000  1592 bytes for ./Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Modules/module.modulemap ... 
+2023-11-23 07:36:51 +0000  95 bytes for ./Frameworks/Flutter.framework/Modules/module.modulemap
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/Flutter.framework/Info.plist ... 
+2023-11-23 07:36:51 +0000  1028 bytes for ./Frameworks/Flutter.framework/Info.plist
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/_CodeSignature/CodeResources ... 
+2023-11-23 07:36:51 +0000  3334 bytes for ./Frameworks/App.framework/_CodeSignature/CodeResources
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/App ... 
+2023-11-23 07:36:51 +0000  4739824 bytes for ./Frameworks/App.framework/App
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/flutter_assets/NOTICES.Z ... 
+2023-11-23 07:36:51 +0000  82799 bytes for ./Frameworks/App.framework/flutter_assets/NOTICES.Z
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
+2023-11-23 07:36:51 +0000  2 bytes for ./Frameworks/App.framework/flutter_assets/AssetManifest.json
+copying file ./Frameworks/App.framework/flutter_assets/FontManifest.json ... 
+2023-11-23 07:36:51 +0000  82 bytes for ./Frameworks/App.framework/flutter_assets/FontManifest.json
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag ... 
+2023-11-23 07:36:51 +0000  11752 bytes for ./Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/flutter_assets/AssetManifest.bin ... 
+2023-11-23 07:36:51 +0000  2 bytes for ./Frameworks/App.framework/flutter_assets/AssetManifest.bin
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf ... 
+2023-11-23 07:36:51 +0000  1604 bytes for ./Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/App.framework/Info.plist ... 
+2023-11-23 07:36:51 +0000  774 bytes for ./Frameworks/App.framework/Info.plist
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2023-11-23 07:36:51 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2023-11-23 07:36:51 +0000  338256 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+2023-11-23 07:36:51 +0000  408608 bytes for ./Frameworks/libswiftCoreAudio.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2023-11-23 07:36:51 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+2023-11-23 07:36:51 +0000  copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+2023-11-23 07:36:51 +0000  400112 bytes for ./Frameworks/libswiftCoreMedia.dylib
+2023-11-23 07:36:51 +0000  copying file ./embedded.mobileprovision ... 
+2023-11-23 07:36:51 +0000  26250 bytes for ./embedded.mobileprovision
+2023-11-23 07:36:51 +0000  copying file ./Info.plist ... 
+2023-11-23 07:36:51 +0000  1442 bytes for ./Info.plist
+2023-11-23 07:36:51 +0000  copying file ./PkgInfo ... 
+2023-11-23 07:36:51 +0000  8 bytes for ./PkgInfo
+2023-11-23 07:36:51 +0000 [MT] /usr/bin/ditto exited with 0
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a25e0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x600000bcd500:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003e2940; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x6000004a7840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a78a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x600000bca140:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x6000004af720:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004baee0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a77e0; bundleID='com.apple.dt.runtime.swiftCoreAudio', path='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreAudio', executablePath='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a7420; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a2a60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c24e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004b0840; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758000; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x600000450780; bundleID='com.apple.dt.runtime.swiftCoreMedia', path='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f98b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742aa0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreMedia', executablePath='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a2a00; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742aa0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a29a0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742aa0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a7480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c2350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001710d10; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a74e0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000174e5d0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a1f80; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a7540; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001710d10; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a2640; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000174e5d0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x6000004a1bc0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c22b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001749a20; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2023-11-23 07:36:51 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2023-11-23 07:36:51 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2023-11-23 07:36:51 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/App.framework/App' '-verify_arch' 'arm64e'
+2023-11-23 07:36:51 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-11-23 07:36:51 +0000 [MT] Skipping architecture thinning for item "App" because arch "arm64e" wasn't found
+2023-11-23 07:36:51 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/Flutter.framework/Flutter' '-verify_arch' 'arm64e'
+2023-11-23 07:36:51 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-11-23 07:36:51 +0000 [MT] Skipping architecture thinning for item "Flutter" because arch "arm64e" wasn't found
+2023-11-23 07:36:51 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:51 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:51 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCoreAudio.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftCoreMedia.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2023-11-23 07:36:52 +0000 [MT] Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2023-11-23 07:36:52 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Runner' '-verify_arch' 'arm64e'
+2023-11-23 07:36:52 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-11-23 07:36:52 +0000 [MT] Skipping architecture thinning for item "Runner" because arch "arm64e" wasn't found
+2023-11-23 07:36:52 +0000 [MT] Processing step: IDEDistributionODRStep
+2023-11-23 07:36:52 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a25e0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x600000bcd500:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003e2940; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758000; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x6000004a7840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a78a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x600000bca140:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x6000004af720:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004baee0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a77e0; bundleID='com.apple.dt.runtime.swiftCoreAudio', path='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758000; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreAudio', executablePath='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a7420; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746470; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a2a60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c24e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004b0840; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600000450780; bundleID='com.apple.dt.runtime.swiftCoreMedia', path='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f98b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreMedia', executablePath='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a2a00; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a29a0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a7480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c2350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a74e0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a1f80; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a7540; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758000; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a2640; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000004a1bc0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c22b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app'
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/xattr exited with 0
+2023-11-23 07:36:52 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a25e0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x600000bcd500:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003e2940; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x6000004a7840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a25e0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x600000bcd500:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003e2940; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758160; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x6000004a7840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a25e0; bundleID='io.flutter.flutter.app', path='<DVTFilePath:0x600000bcd500:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003e2940; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742c00; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter.app', executablePath='<DVTFilePath:0x6000004a7840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/App.framework/App'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~hvbRNQ
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~hvbRNQ' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/App.framework'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/App.framework: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/App.framework: signed bundle with Mach-O universal (arm64) [io.flutter.flutter.app]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a78a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x600000bca140:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746470; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x6000004af720:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a78a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x600000bca140:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001743180; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x6000004af720:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a78a0; bundleID='io.flutter.flutter', path='<DVTFilePath:0x600000bca140:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017432e0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='io.flutter.flutter', executablePath='<DVTFilePath:0x6000004af720:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/Flutter.framework/Flutter'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~tXCz9o
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~tXCz9o' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/Flutter.framework'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/Flutter.framework: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/Flutter.framework: signed bundle with Mach-O thin (arm64) [io.flutter.flutter]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004baee0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004baee0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017432e0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004baee0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef3e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017429f0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x600000bc9c00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~ntwl6t
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~ntwl6t' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a77e0; bundleID='com.apple.dt.runtime.swiftCoreAudio', path='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746470; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreAudio', executablePath='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a77e0; bundleID='com.apple.dt.runtime.swiftCoreAudio', path='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreAudio', executablePath='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a77e0; bundleID='com.apple.dt.runtime.swiftCoreAudio', path='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f97c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreAudio', executablePath='<DVTFilePath:0x600000bca840:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreAudio.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~Fu2Q4y
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~Fu2Q4y' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7420; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7420; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001749970; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a7420; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735c30; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x600000f00800:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~TCPcqm
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~TCPcqm' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2a60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c24e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746470; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2a60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c24e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746100; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a2a60; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c24e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000174e260; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x600000f01d00:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~NSQmEG
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~NSQmEG' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib'
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2023-11-23 07:36:52 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2023-11-23 07:36:52 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004b0840; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:52 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004b0840; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000174e5d0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:52 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004b0840; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9630; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000174dd90; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x600000bc9b20:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~k1IR5C
+2023-11-23 07:36:52 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~k1IR5C' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000450780; bundleID='com.apple.dt.runtime.swiftCoreMedia', path='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f98b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreMedia', executablePath='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000450780; bundleID='com.apple.dt.runtime.swiftCoreMedia', path='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f98b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ef0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreMedia', executablePath='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600000450780; bundleID='com.apple.dt.runtime.swiftCoreMedia', path='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f98b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftCoreMedia', executablePath='<DVTFilePath:0x600000bca990:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftCoreMedia.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~tMQPFz
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~tMQPFz' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2a00; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2a00; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758160; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a2a00; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x600000bca6f0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~1lFLI8
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~1lFLI8' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a29a0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a29a0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017432e0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a29a0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017429f0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x600000bc9d50:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~PKJ0xV
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~PKJ0xV' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c2350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c2350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017432e0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a7480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c2350; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017429f0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x600000f01380:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~OpKfxw
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~OpKfxw' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a74e0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a74e0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001746310; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a74e0; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003ef5c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742c00; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x600000bc9f10:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~4xeMoq
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~4xeMoq' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a1f80; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a1f80; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017432e0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a1f80; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003f9680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742b50; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x600000f00600:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~bAdwqn
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~bAdwqn' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7540; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735ce0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a7540; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001743180; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a7540; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c23a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017580b0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x600000f00d80:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~5HffGc
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~5HffGc' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2640; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a2640; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758160; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a2640; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa170; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742c00; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x600000bc9e30:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~EdTLtr
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~EdTLtr' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib'
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2023-11-23 07:36:53 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2023-11-23 07:36:53 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a1bc0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c22b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017580b0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2023-11-23 07:36:53 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004a1bc0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c22b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001735e40; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2023-11-23 07:36:53 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004a1bc0; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003c22b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001758210; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='(null)', teamID='HM3C623473', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x600000bc9ff0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~FlVQNq
+2023-11-23 07:36:53 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~FlVQNq' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib'
+2023-11-23 07:36:54 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib: replacing existing signature
+2023-11-23 07:36:54 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2023-11-23 07:36:54 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:54 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004bbe40; bundleID='com.aiai.test', path='<DVTFilePath:0x600000b7efb0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742730; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='{
+    "application-identifier" = "HM3C623473.com.aiai.test";
+    "com.apple.developer.team-identifier" = HM3C623473;
+    "get-task-allow" = 1;
+}', teamID='HM3C623473', identifier='com.aiai.test', executablePath='<DVTFilePath:0x6000004bbea0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "HM3C623473.com.aiai.test";
+    "com.apple.developer.team-identifier" = HM3C623473;
+    "get-task-allow" = 0;
+}
+2023-11-23 07:36:54 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000004bbe40; bundleID='com.aiai.test', path='<DVTFilePath:0x600000b7efb0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x6000017429f0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='{
+    "application-identifier" = "HM3C623473.com.aiai.test";
+    "com.apple.developer.team-identifier" = HM3C623473;
+    "get-task-allow" = 1;
+}', teamID='HM3C623473', identifier='com.aiai.test', executablePath='<DVTFilePath:0x6000004bbea0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "HM3C623473.com.aiai.test";
+    "com.apple.developer.team-identifier" = HM3C623473;
+    "get-task-allow" = 0;
+}
+2023-11-23 07:36:54 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000004bbe40; bundleID='com.aiai.test', path='<DVTFilePath:0x600000b7efb0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000003fa5d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001742aa0; name='Apple Development: deng deng (HA9M866MFF)', hash='C5ECAC083CEE4CF62707A564AB363A6884F26D3C', serialNumber='69F90E773F6FD91EF7C073426F7BAF09', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-08-08 03:28:39 +0000''>', entitlements='{
+    "application-identifier" = "HM3C623473.com.aiai.test";
+    "com.apple.developer.team-identifier" = HM3C623473;
+    "get-task-allow" = 1;
+}', teamID='HM3C623473', identifier='com.aiai.test', executablePath='<DVTFilePath:0x6000004bbea0:'/Users/deng/Downloads/in_app_purchase/in_app_purchase/example/build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app/Runner'>', hardenedRuntime='0'>'> to: /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~Ipxs63
+2023-11-23 07:36:54 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'F00F5CC9E96A2D48D4BE3DD35BA549A123763D11' '--entitlements' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/entitlements~~~Ipxs63' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app'
+2023-11-23 07:36:54 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app: replacing existing signature
+2023-11-23 07:36:54 +0000  /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app: signed app bundle with Mach-O thin (arm64) [com.aiai.test]
+2023-11-23 07:36:54 +0000 [MT] /usr/bin/codesign exited with 0
+2023-11-23 07:36:54 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-11-23 07:36:54 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2023-11-23 07:36:54 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root' '/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Packages/in_app_purchase_example.ipa'
+2023-11-23 07:36:54 +0000  >>> Copying /var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root 
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/_CodeSignature/CodeResources ... 
+2023-11-23 07:36:54 +0000  17105 bytes for ./Payload/Runner.app/_CodeSignature/CodeResources
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/AppIcon60x60@2x.png ... 
+2023-11-23 07:36:54 +0000  3364 bytes for ./Payload/Runner.app/AppIcon60x60@2x.png
+copying file ./Payload/Runner.app/Runner ... 
+2023-11-23 07:36:54 +0000  185648 bytes for ./Payload/Runner.app/Runner
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2023-11-23 07:36:54 +0000  923 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2023-11-23 07:36:54 +0000  1835 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Runner.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2023-11-23 07:36:54 +0000  258 bytes for ./Payload/Runner.app/Base.lproj/Main.storyboardc/Info.plist
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-11-23 07:36:54 +0000  2281 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-11-23 07:36:54 +0000  896 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-11-23 07:36:54 +0000  258 bytes for ./Payload/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Runner.app/Assets.car ... 
+2023-11-23 07:36:54 +0000  97279 bytes for ./Payload/Runner.app/Assets.car
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/AppFrameworkInfo.plist ... 
+377 bytes for ./Payload/Runner.app/AppFrameworkInfo.plist
+copying file ./Payload/Runner.app/AppIcon76x76@2x~ipad.png ... 
+2023-11-23 07:36:54 +0000  4121 bytes for ./Payload/Runner.app/AppIcon76x76@2x~ipad.png
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Frameworks/libswiftCoreImage.dylib ... 
+2023-11-23 07:36:54 +0000  253648 bytes for ./Payload/Runner.app/Frameworks/libswiftCoreImage.dylib
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib ... 
+2023-11-23 07:36:54 +0000  302640 bytes for ./Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Frameworks/libswiftCore.dylib ... 
+2023-11-23 07:36:54 +0000  16915056 bytes for ./Payload/Runner.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2023-11-23 07:36:54 +0000  646864 bytes for ./Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftUIKit.dylib ... 
+2023-11-23 07:36:54 +0000  477168 bytes for ./Payload/Runner.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftMetal.dylib ... 
+2023-11-23 07:36:54 +0000  298112 bytes for ./Payload/Runner.app/Frameworks/libswiftMetal.dylib
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Frameworks/libswiftDispatch.dylib ... 
+2023-11-23 07:36:54 +0000  1018928 bytes for ./Payload/Runner.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftos.dylib ... 
+2023-11-23 07:36:54 +0000  299440 bytes for ./Payload/Runner.app/Frameworks/libswiftos.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2023-11-23 07:36:54 +0000  253792 bytes for ./Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib
+2023-11-23 07:36:54 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources ... 
+2023-11-23 07:36:54 +0000  6108 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/icudtl.dat ... 
+2023-11-23 07:36:54 +0000  817168 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/icudtl.dat
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Flutter ... 
+2023-11-23 07:36:55 +0000  9766640 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Flutter
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterEngine.h ... 
+20494 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterEngine.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterChannels.h ... 
+2023-11-23 07:36:55 +0000  16929 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterChannels.h
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPlugin.h ... 
+2023-11-23 07:36:55 +0000  15972 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPlugin.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h ... 
+1139 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterTexture.h ... 
+1916 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterTexture.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h ... 
+2023-11-23 07:36:55 +0000  4506 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h ... 
+1835 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h ... 
+2023-11-23 07:36:55 +0000  3795 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterCodecs.h ... 
+2023-11-23 07:36:55 +0000  15055 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterCodecs.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/Flutter.h ... 
+2023-11-23 07:36:55 +0000  722 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/Flutter.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterViewController.h ... 
+2023-11-23 07:36:55 +0000  9967 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterViewController.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterMacros.h ... 
+2023-11-23 07:36:55 +0000  1682 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterMacros.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterDartProject.h ... 
+2023-11-23 07:36:55 +0000  3003 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterDartProject.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h ... 
+2023-11-23 07:36:55 +0000  5185 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h ... 
+2023-11-23 07:36:55 +0000  3605 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h ... 
+2023-11-23 07:36:55 +0000  1592 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Modules/module.modulemap ... 
+95 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Modules/module.modulemap
+copying file ./Payload/Runner.app/Frameworks/Flutter.framework/Info.plist ... 
+2023-11-23 07:36:55 +0000  1028 bytes for ./Payload/Runner.app/Frameworks/Flutter.framework/Info.plist
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources ... 
+2023-11-23 07:36:55 +0000  3334 bytes for ./Payload/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources
+copying file ./Payload/Runner.app/Frameworks/App.framework/App ... 
+2023-11-23 07:36:55 +0000  4740096 bytes for ./Payload/Runner.app/Frameworks/App.framework/App
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/NOTICES.Z ... 
+2023-11-23 07:36:55 +0000  82799 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/NOTICES.Z
+copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json ... 
+2023-11-23 07:36:55 +0000  2 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json
+copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json ... 
+82 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag ... 
+2023-11-23 07:36:55 +0000  11752 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag
+copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.bin ... 
+2 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.bin
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf ... 
+1604 bytes for ./Payload/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/App.framework/Info.plist ... 
+774 bytes for ./Payload/Runner.app/Frameworks/App.framework/Info.plist
+copying file ./Payload/Runner.app/Frameworks/libswiftDarwin.dylib ... 
+2023-11-23 07:36:55 +0000  369744 bytes for ./Payload/Runner.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib ... 
+2023-11-23 07:36:55 +0000  256864 bytes for ./Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib ... 
+2023-11-23 07:36:55 +0000  311328 bytes for ./Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib
+copying file ./Payload/Runner.app/Frameworks/libswiftFoundation.dylib ... 
+2023-11-23 07:36:55 +0000  8479552 bytes for ./Payload/Runner.app/Frameworks/libswiftFoundation.dylib
+2023-11-23 07:36:55 +0000  copying file ./Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib ... 
+2023-11-23 07:36:55 +0000  302656 bytes for ./Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib
+copying file ./Payload/Runner.app/embedded.mobileprovision ... 
+2023-11-23 07:36:55 +0000  18122 bytes for ./Payload/Runner.app/embedded.mobileprovision
+copying file ./Payload/Runner.app/Info.plist ... 
+2023-11-23 07:36:55 +0000  1442 bytes for ./Payload/Runner.app/Info.plist
+copying file ./Payload/Runner.app/PkgInfo ... 
+8 bytes for ./Payload/Runner.app/PkgInfo
+2023-11-23 07:36:55 +0000 [MT] /usr/bin/ditto exited with 0
+2023-11-23 07:36:55 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2023-11-23 07:36:55 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-11-23 07:36:55 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000be2d80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000be2d80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreMedia.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000be3e20:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/Flutter.framework'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000f3e080:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000f3e080:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftObjectiveC.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfcd20:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfcd20:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCore.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfd030:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfd030:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftMetal.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000f44e80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000f44e80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftQuartzCore.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000f3db80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000f3db80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreGraphics.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfcf50:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfcf50:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftUIKit.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000f44f80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000f44f80:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftFoundation.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfcbd0:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfcbd0:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreImage.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bf8a10:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/App.framework'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfce70:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfce70:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDispatch.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000be2e60:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000be2e60:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftDarwin.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000be20d0:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000be20d0:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreAudio.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000f4aa00:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000f4aa00:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftCoreFoundation.dylib'>
+2023-11-23 07:36:55 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000bfd110:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib'>
+2023-11-23 07:36:55 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x600000bfd110:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app/Frameworks/libswiftos.dylib'>
+2023-11-23 07:36:56 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600000be0310:'/var/folders/cp/968g5yyj78z27q47c_d18n3w0000gn/T/XcodeDistPipeline.~~~wLxI8Y/Root/Payload/Runner.app'>
+2023-11-23 07:36:56 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
