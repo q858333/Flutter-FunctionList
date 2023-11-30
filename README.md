@@ -1,3 +1,14 @@
+# 数据库
+1.必须将 isar 和 isar_flutter_libs 添加到您的依赖项中。
+  必须将 isar_generator 和 build_runner 添加到您的 dev_dependencies。
+    <img src="https://p4.itc.cn/q_70/images01/20220520/de1e957f05bc4fa88fa67eb379d07c7a.png"/>
+2.修改数据库模型后运行  flutter pub run build_runner build
+
+
+
+
+
+# 支付
 A storefront-independent API for purchases in Flutter apps.
 
 <!-- If this package were in its own repo, we'd put badges here -->
