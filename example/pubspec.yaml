@@ -28,6 +28,8 @@ dependencies:
   path_provider: ^2.1.0
   # 锁操作
   mutex: ^3.0.1
+  get: ^4.6.5
+
 
 dev_dependencies:
   flutter_test:

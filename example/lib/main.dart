@@ -6,36 +6,24 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:in_app_purchase_android/billing_client_wrappers.dart';
 import 'package:in_app_purchase_android/in_app_purchase_android.dart';
-import 'package:in_app_purchase_example/db/model.dart';
+import 'package:in_app_purchase_example/router/app_pages.dart';
+import 'package:in_app_purchase_example/router/app_routes.dart';
 import 'package:in_app_purchase_storekit/in_app_purchase_storekit.dart';
 import 'package:in_app_purchase_storekit/store_kit_wrappers.dart';
 
 import 'consumable_store.dart';
-import 'db/DBManager.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(_MyApp());
-  initDB();
 }
 
- void initDB() async {
-    DBManager.configDB();
-    await Future.delayed(const Duration(seconds: 3));
-    // await DBManager.addUser();
-    List list  = await DBManager.readUser();
-    FriendInfo info = list.first;
-    await DBManager.delete(info.id);
-    await Future.delayed(const Duration(seconds: 3));
-
-    List newList  = await DBManager.readUser();
-
-    print(' List $list');
-  }
 
 // Auto-consume must be true on iOS.
 // To try without auto-consume on another platform, change `true` to `false` here.
@@ -174,6 +162,7 @@ class _MyAppState extends State<_MyApp> {
             _buildProductList(),
             _buildConsumableBox(),
             _buildRestoreButton(),
+            _buildDBButton(),
           ],
         ),
       );
@@ -198,7 +187,8 @@ class _MyAppState extends State<_MyApp> {
       );
     }
 
-    return MaterialApp(
+    return GetMaterialApp(
+      getPages: AppPages.routes,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('IAP Example'),
@@ -394,6 +384,17 @@ class _MyAppState extends State<_MyApp> {
       ),
     );
   }
+
+  Widget _buildDBButton() {
+
+    return ElevatedButton(
+      child: Text('DB'),
+      onPressed: () {
+        Get.toNamed(AppRoutes.DB);
+      },
+    );
+  }
+
 
   Future<void> consume(String id) async {
     await ConsumableStore.consume(id);
