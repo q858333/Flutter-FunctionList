@@ -10,9 +10,8 @@
 
 
 
-
-
 # 支付
+[Apple 支付相关文档] (https://developer.apple.com/cn/help/app-store-connect/manage-subscriptions/set-up-introductory-offers-for-auto-renewable-subscriptions)
 A storefront-independent API for purchases in Flutter apps.
 
 <!-- If this package were in its own repo, we'd put badges here -->
