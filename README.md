@@ -1,3 +1,8 @@
+# 打包
+flutter build ipa --release
+flutter build ipa --export-method ad-hoc
+flutter build ios --obfuscate --split-debug-info=./symbols/ （加密）
+
 # 数据库
 1.必须将 isar 和 isar_flutter_libs 添加到您的依赖项中。
   必须将 isar_generator 和 build_runner 添加到您的 dev_dependencies。
